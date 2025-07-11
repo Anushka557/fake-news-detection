@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 
-model = pickle.load(open("model.pkl", "rb"))
+
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 st.title(" Fake News Detector")
